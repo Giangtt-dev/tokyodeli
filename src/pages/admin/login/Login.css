@@ -1,0 +1,66 @@
+.login {
+  font-family: "Inter", sans-serif;
+  width: 50%;
+}
+
+.login h1 {
+  text-align: left;
+  color: #252f40;
+}
+
+.login h2 {
+  color: #e62531;
+}
+
+.login p {
+  color: #79849b;
+}
+
+.login label {
+  font-weight: 600px;
+  padding-right: 15px;
+}
+
+.login input {
+  border-radius: 5px;
+  border-color: #ea10ac;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.login .email,
+.password {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  width: auto;
+}
+
+.login .remember {
+  color: #79849b;
+}
+
+.login .remember a {
+  padding-right: 10px;
+  color: #79849b;
+}
+
+.login .error {
+  color: red;
+  padding: 15px 0;
+}
+
+.login .signIn {
+  padding-top: 30px;
+}
+
+.login button {
+  background-color: #e62531;
+  transform-style: uppercase;
+  width: 50%;
+  height: 30px;
+  border: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+}

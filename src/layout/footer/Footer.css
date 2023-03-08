@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0 90px;
+  font-family: Nunito, sans-serif;
+  padding: 60px 0 90px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li a,
+.policy ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.addressAndContact ul li,
+.useAndPrivacy ul li,
+.socialNetwork ul li {
+  padding-top: 20px;
+}
+
+.addressAndContact ul li {
+  font-size: 16px;
+}
+
+.useAndPrivacy ul li {
+  font-size: 15px;
+}
+
+.socialNetwork ul {
+  margin-left: -10px;
+}
+.socialNetwork ul li {
+  display: inline;
+}
+
+.footer .socialNetwork {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.policy {
+  text-align: center;
+  font-size: 12px;
+}
+.policy ul li {
+  display: inline;
+}

@@ -1,0 +1,116 @@
+header {
+  display: block;
+  cursor: pointer;
+  background-color: white;
+  font-family: Nunito, sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+  z-index: 2;
+}
+.navigationWeb {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 990px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+  text-align: left;
+}
+.website-nav {
+  border-radius: 50px;
+  background: rgba(239, 61, 61, 0.9);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.website-nav a {
+  border: 4px solid white;
+}
+.navigationWeb ul {
+  display: flex;
+  list-style: none;
+  margin-left: -5px;
+  padding-left: 0;
+}
+
+.navigationWeb ul li {
+  display: inline-block;
+  margin-left: 15px;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.navigationWeb ul li a {
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 12px;
+  color: black;
+}
+
+.navigationWeb .dropdown-menu-web {
+  display: none;
+  align-items: center;
+  line-height: 1.5;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0 10px;
+  min-height: 24px;
+  color: #222;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.website-nav {
+  position: relative;
+  display: inline-block;
+}
+
+.selectList ul {
+  flex-wrap: wrap;
+}
+
+.selectList ul li {
+  margin-bottom: 10px;
+}
+
+.selectList ul li a {
+  font-size: 15px;
+  font-weight: 700;
+  color: #666;
+}
+.website-nav a:hover {
+  color: white;
+  background-color: rgba(239, 61, 61, 0.9);
+}
+.selectList a:hover {
+  color: red;
+}
+
+.dropdown:hover .dropdown-menu-web {
+  bottom: -10px;
+  display: block;
+  background: rgba(239, 61, 61, 0.9);
+}
+
+.dropdown:hover ul li a {
+  background: rgba(239, 61, 61, 0.9);
+  color: white;
+  border: none;
+}
+
+.dropdown:hover {
+  background: rgba(239, 61, 61, 0.9);
+}
+.dropdown-menu-web {
+  display: none;
+  position: absolute;
+}
+
+.selectList ul {
+  margin-left: -25px;
+  margin-bottom: 0;
+}

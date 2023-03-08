@@ -1,0 +1,11 @@
+.statistic {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px;
+  border-color: #79849b;
+}
+
+.statistic a {
+  padding-left: 20px;
+  color: #cb0b96;
+}

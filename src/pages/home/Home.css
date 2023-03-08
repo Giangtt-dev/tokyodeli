@@ -1,0 +1,330 @@
+.bannerSlide {
+  position: relative;
+}
+
+.bannerSlide .bannerImage-1 img,
+.bannerSlide .bannerImage-2 img,
+.bannerSlide .bannerImage-3 img,
+.bannerSlide .bannerImage-4 img {
+  width: 100%;
+  height: auto;
+}
+.japanFoods img,
+.decorateSlide img,
+.promotions img {
+  width: 100%;
+  height: auto;
+  transition-duration: 0.5s;
+}
+
+.foods {
+  background-image: url(./images/JFbackground.png);
+  padding: 85px 0;
+}
+
+.foods .japanFoods {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  padding: 0 0 15px;
+}
+
+.column-left,
+.column-center,
+.column-right {
+  width: 33.3%;
+  position: relative;
+  height: 400px;
+}
+
+.japanFoods {
+  padding-right: 15px;
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+}
+
+.japanFoods .column-left .image1 {
+  height: calc(100% + 9px);
+}
+
+.japanFoods .column-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.japanFoods .column-center .descriptionFoods {
+  height: 338px;
+}
+
+.japanFoods .column-right .image234 .row-upper {
+  display: flex;
+}
+
+.image-container {
+  width: 50%;
+  /* padding: 0 10px; */
+}
+
+.japanFoods .column-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.japanFoods .column-right .row-upper {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 180px;
+}
+
+.japanFoods .column-right .row-upper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-container:not(:first-child) {
+  padding-left: 15px;
+}
+
+.descriptionFoods {
+  border: solid 1px black;
+  padding: 35px 40px;
+}
+
+.descriptionFoods p {
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.descriptionFoods .btnViewMore {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0;
+}
+
+.descriptionFoods a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #ea2531;
+  width: 160px;
+  height: 45px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.moraleTokyoDeli {
+  display: flex;
+  flex-direction: column;
+}
+
+.decorateSlide {
+  width: 75%;
+  position: relative;
+}
+.tokyoDeli {
+  width: 25%;
+  position: relative;
+}
+
+.decorateSlide .decorate1 img,
+.decorateSlide .decorate2 img,
+.decorateSlide .decorate3 img,
+.decorateSlide .decorate4 img,
+.decorateSlide .decorate5 img,
+.decorateSlide .decorate6 img {
+  width: 100%;
+  height: auto;
+}
+
+.image1 {
+  width: calc(100% - 15px);
+  height: 100%;
+}
+
+.image234 {
+  padding-left: 15px;
+  width: 100%;
+}
+
+.row-bottom {
+  height: 215px;
+}
+
+.row-bottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.decorateTokyoDeli,
+.promotions,
+.quality {
+  text-align: center;
+}
+
+.decorateTokyoDeli h1 {
+  color: #111;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.decorateTokyoDeli p {
+  color: #333;
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+}
+
+.tokyoDeli {
+  border: 2px solid #000;
+  padding: 30px;
+  text-align: left;
+}
+.tokyoDeli h3 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Montserrat-Bold;
+}
+.tokyoDeli p {
+  font-size: 15px;
+  text-align: justify;
+}
+.moraleTokyoDeli {
+  display: block;
+  flex-direction: row;
+}
+.promotion-1 a {
+  text-decoration: none;
+  color: #111;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  position: absolute;
+}
+.columnPromotion-1 {
+  float: left;
+  width: 75%;
+  overflow: hidden;
+}
+.columnPromotion-2 {
+  float: left;
+  width: 25%;
+  overflow: hidden;
+}
+
+.columnPromotion-2 a {
+  text-decoration: none;
+  color: #111;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.quality {
+  background-image: url(./images/qualitybg.jpg);
+  padding: 90px 0;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.quality h1 {
+  color: #111;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.quality p {
+  font-family: Nunito, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.promotions h1 {
+  padding-bottom: 15px;
+}
+/* .columnPromotion-1{
+  padding: 0 15px;
+} */
+.columnPromotion-2 .row-upper .containerUp {
+  padding-left: 15px;
+}
+*/ .promotions .columnPromotion-1 img {
+  widows: 100%;
+  height: auto;
+}
+.columnPromotion-1,
+.columnPromotion-2 {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.columnPromotion-2 {
+  display: flex;
+  flex-direction: column;
+}
+.promotions .columnPromotion-2 .row-upper {
+  display: flex;
+}
+.row-upper .containerUp {
+  float: left;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.row-lower .containerLow {
+  float: left;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.viewMore a {
+  color: #e82429;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.promotions a:hover {
+  color: red;
+}
+.promotion-1 a,
+.row-upper .containerUp a,
+.row-lower .containerLow a {
+  text-align: left;
+}
+.promotions img:hover {
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+.slick-dots {
+  bottom: 75px;
+  right: -90px;
+  width: fit-content;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  transform: rotate(90deg);
+}
+
+.slick-dots li {
+  margin: 0;
+}
+
+.moraleTokyoDeli {
+  display: flex;
+  align-items: flex-start;
+}
+
+.clearBox {
+  clear: both;
+}

@@ -1,0 +1,31 @@
+.addForm {
+  margin-left: 160px;
+  border: solid #e82429 0.5px;
+  padding-left: 30px;
+}
+
+h2 {
+  color: #e82429;
+  text-align: left;
+}
+
+.addForm label {
+  font-weight: 600px;
+  padding-right: 15px;
+}
+
+.addForm input {
+  border-radius: 5px;
+  border-color: #ea10ac;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.submitProduct button {
+  background-color: #e82429;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  border: solid 0.5px;
+  cursor: pointer;
+}

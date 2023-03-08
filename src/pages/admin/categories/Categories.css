@@ -1,0 +1,38 @@
+table,
+h2 {
+  margin: 15px 15px;
+  border-collapse: collapse;
+  width: 100%;
+  color: #79849b;
+}
+
+.categoriesInfo {
+  margin-top: 100px;
+  margin-left: 160px;
+}
+
+tr {
+  height: 15px;
+}
+
+th,
+.productsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #e82429;
+  color: white;
+}
+td {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

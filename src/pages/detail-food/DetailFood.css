@@ -1,0 +1,114 @@
+.foodInfo {
+  display: flex;
+  align-items: stretch;
+  padding: 60px 0;
+}
+
+.columnLeft,
+.cardMenu {
+  float: left;
+  width: 50%;
+  border: 1px solid #e5e5e5;
+  padding: 0 15px;
+}
+
+.columnLeft .img img,
+.slideOtherFoods .cardMenu img {
+  transition-duration: 0.5s;
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+}
+
+.columnLeft img:hover,
+.slideOtherFoods .cardMenu img:hover {
+  transform: scale(1.3);
+}
+
+.productImage {
+  overflow: hidden;
+}
+
+.productImage img {
+  width: 100%;
+  height: auto;
+}
+
+.columnRight {
+  padding: 0 15px;
+}
+
+.columnRight h2 {
+  color: #333;
+  font-family: Nunito, sans-serif;
+  text-align: left;
+  font-size: 22.5px;
+}
+
+.columnRight .price p {
+  color: #e82429;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.columnRight .price {
+  border-bottom: 1px solid #333;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+
+.columnRight .contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 100%;
+  gap: 10px;
+}
+.columnRight .contact a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333;
+  font-family: Nunito, sans-serif;
+  padding: 3px 10px;
+}
+
+.columnRight .contact svg {
+  margin-left: 5px;
+}
+
+.otherFoods .title h2 {
+  text-align: center;
+  color: #111;
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.slideOtherFoods img {
+  width: 100%;
+  height: auto;
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+
+.slideOtherFoods .slideItem {
+  padding: 15px 30px;
+}
+
+.slideOtherFoods .slideItem .productWrapper {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.slideOtherFoods .slideItem .price p {
+  color: red;
+  text-align: center;
+}

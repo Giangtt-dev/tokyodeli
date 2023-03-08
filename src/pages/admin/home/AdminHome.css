@@ -1,0 +1,11 @@
+.sidebar ul {
+  padding-top: 100px;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  display: block;
+}
+.productsTable table tr th {
+  border: solid 1px #79849b;
+}
